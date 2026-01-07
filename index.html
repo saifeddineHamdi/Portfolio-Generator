@@ -1,0 +1,73 @@
+<body>
+
+    <h1>this work !! </h1>
+    <script>
+
+
+    fetch("data.json")
+    .then(Response => Response.json())
+    .then(data => {
+        console. log(data.name)
+        document.querySelector("#debug").innerText=data.name
+    })
+
+
+
+
+    </script>
+
+    <!-- Header and Navigation Section -->
+    <header>
+        <nav>
+            <h1>"name"</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero/Introduction Section -->
+    <section id="hero">
+        <div>
+            <h2>Hello, I'm [Your Name]</h2>
+            <p>A short description of what you do.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+        <!-- Optional: Add an image of yourself or relevant graphic -->
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <p>A more in-depth summary of your skills, education, and experience.</p>
+    </section>
+
+    <!-- Projects/Work Experience Section -->
+    <section id="projects">
+        <h3>My Work</h3>
+        <!-- Add individual project items here -->
+        <div class="project-item">
+            <h4>Project Title</h4>
+            <p>Description of the project.</p>
+            <a href="[Link to project]">View Project</a>
+        </div>
+        <!-- Repeat for more projects -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <p>You can reach me via email or social media.</p>
+        <a href="mailto:your.email@example.com">Send Email</a>
+        <!-- Add social media links (GitHub, LinkedIn, etc.) -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

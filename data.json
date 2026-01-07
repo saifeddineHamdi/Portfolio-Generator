@@ -1,0 +1,17 @@
+{
+  "name": "Saifeddine Hamdi",
+  "title": "Developer",
+  "about": "Motivated Junior Developer with a strong foundation in Embedded Systems & IoT, skilled in Python, Raspberry Pi.",
+  "skills": ["JavaScript", "Python"," NumPy"," HTML/CSS", " Arduino"," PCB "," Linux"],
+  "projects": [
+    {
+      "name": "Portfolio Generator",
+      "description": "Creates portfolio from JSON",
+      "link": "https://github.com/saifeddineHamdi/Portfolio-Generator"
+    }
+  ],
+  "contact": {
+    "email": "saief1899@gmail.com",
+    "github": "https://github.com/saifeddineHamdi/"
+  }
+}
