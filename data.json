@@ -5,7 +5,7 @@
   "skills": ["JavaScript", "Python"," NumPy"," HTML/CSS", " Arduino"," PCB "," Linux"],
   "projects": [
     {
-      "name": "Portfolio Generator",
+      "name_project": "Portfolio Generator",
       "description": "Creates portfolio from JSON",
       "link": "https://github.com/saifeddineHamdi/Portfolio-Generator"
     }
